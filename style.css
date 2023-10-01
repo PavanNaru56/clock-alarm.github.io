@@ -1,8 +1,10 @@
+/*stylesheet for the alarm */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*sets the background color black*/
 body{
     background-color: black;
     
@@ -89,6 +91,7 @@ select{
     color: white;
 
 }
+/*delete alarm*/
 .alarm .delete-alarm{
     border-radius: 2rem;
     background-color:yellow ;
