@@ -1,3 +1,5 @@
+//JavaScript file for the html file
+//Extracts the html elements from index.html file
 const currentTime = document.querySelector("#current-time");
 const setHours = document.querySelector("#hours");
 const setMinutes = document.querySelector("#minutes");
@@ -32,6 +34,7 @@ function dropDownMenu(start, end, element) {
   }
 }
 
+//getting the system time using the Date funtion
 
 function getCurrentTime() {
   let time = new Date();
@@ -46,7 +49,7 @@ function getCurrentTime() {
   return time;
 }
 
-
+//gets the alarm input
 function getInput(e) {
   e.preventDefault();
   const hourValue = setHours.value;
